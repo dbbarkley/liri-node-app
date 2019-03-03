@@ -10,9 +10,9 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 
   1. Name of the venue
 
-  2. Venue location
+  1. Venue location
 
-  3. Date of the Event
+  1. Date of the Event
 
 ### 2. Type the following command into your terminal/bash: `node Liri.js spotify-this-song '<song name here>'`
 
@@ -20,24 +20,24 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 
   1. Artist(s)
 
-  2. The song's name
+  1. The song's name
 
-  3. A preview link of the song from Spotify
+  1. A preview link of the song from Spotify
 
-  4. The album that the song is from
+  1. The album that the song is from
 
 ### 3. Type the following command into your terminal/bash: `node Liri.js movie-this '<movie name here>'`
 
 - Using OMDB API This will display the following information to your terminal/bash window:
 
     1. Title of the movie.
-    2. Year the movie came out.
-    3. IMDB Rating of the movie.
-    4. Rotten Tomatoes Rating of the movie.
-    5. Country where the movie was produced.
-    6. Language of the movie.
-    7. Plot of the movie.
-    8. Actors in the movie.
+    1. Year the movie came out.
+    1. IMDB Rating of the movie.
+    1. Rotten Tomatoes Rating of the movie.
+    1. Country where the movie was produced.
+    1. Language of the movie.
+    1. Plot of the movie.
+    1. Actors in the movie.
 
 ### 4. Type the following command into your terminal/bash: `node Liri.js do-what-it-says`
 
