@@ -39,7 +39,7 @@ if(action === "concert-this") {
                     "\nDates: " + moment(response.data[i].datetime).format("MMM, DD, YYYY") +
                     "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     
-                );
+                );  
             }
           }
         )

@@ -42,3 +42,17 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 ### 4. Type the following command into your terminal/bash: `node Liri.js do-what-it-says`
 
 - This will take the command in the random.txt and then use it to call one of above commands.
+
+## Examples:
+
+### 1. Concert-this
+    ![](Gifs/concert-this.gif)
+
+### 2. Spotify-this-song-this
+    ![](Gifs/spotify-this-song.gif)
+
+### 3. movie-this
+    ![](Gifs/movie-this.gif)
+
+### 4. do-what-it-says-this
+    ![](Gifs/do-what-it-says.gif)
