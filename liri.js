@@ -8,20 +8,24 @@ var fs = require('fs');
 
 var spotify = new Spotify(keys.spotify);
 
-var command = process.argv[2];
+var action = process.argv[2];
 var input = process.argv.slice(3).join(" ");
 
 // Command logic
-if(command === "concert-this") {
+if(action === "concert-this") {
     var URL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp";
     concert(input);
+    log();
     } // spotify-this-song
-     else if (command === "spotify-this-song") {
+     else if (action === "spotify-this-song") {
         spotifyIt(input);
-    } else if (command === "movie-this") {
+        log();
+    } else if (action === "movie-this") {
         movie(input);
-    } else if (command === "do-what-it-says") {
+        log();
+    } else if (action === "do-what-it-says") {
         doWhatItSays(input);
+        log();
     }
 
     // Concert-this function
@@ -109,4 +113,13 @@ if(command === "concert-this") {
             } 
             
           });
+    };
+
+    //Bonus appendFile
+    function log() {
+        fs.appendFile("log.txt", "\n" + action + ": '" + input + "',", function(err) {
+            if (err) {
+            console.log(err);
+            }
+        });
     }
