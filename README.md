@@ -8,36 +8,43 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 
 - Using Bands in Town Artist Events API this will display the following information about each event to the terminal/bash window:
 
-  1. Name of the venue
+  * Name of the venue
 
-  1. Venue location
+  * Venue location
 
-  1. Date of the Event
+  * Date of the Event
 
 ### 2. Type the following command into your terminal/bash: `node Liri.js spotify-this-song '<song name here>'`
 
 - Using node-spotify-API this will display the following information about the song in terminal/bash window
 
-  1. Artist(s)
+  * Artist(s)
 
-  1. The song's name
+  * The song's name
 
-  1. A preview link of the song from Spotify
+  * A preview link of the song from Spotify
 
-  1. The album that the song is from
+  * The album that the song is from
 
 ### 3. Type the following command into your terminal/bash: `node Liri.js movie-this '<movie name here>'`
 
 - Using OMDB API This will display the following information to your terminal/bash window:
 
-    1. Title of the movie.
-    1. Year the movie came out.
-    1. IMDB Rating of the movie.
-    1. Rotten Tomatoes Rating of the movie.
-    1. Country where the movie was produced.
-    1. Language of the movie.
-    1. Plot of the movie.
-    1. Actors in the movie.
+    * Title of the movie.
+
+    * Year the movie came out.
+
+    * IMDB Rating of the movie.
+
+    * Rotten Tomatoes Rating of the movie.
+
+    * Country where the movie was produced.
+
+    * Language of the movie.
+
+    * Plot of the movie.
+
+    * Actors in the movie.
 
 ### 4. Type the following command into your terminal/bash: `node Liri.js do-what-it-says`
 
@@ -46,13 +53,17 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 ## Examples:
 
 ### 1. Concert-this
-    ![](Gifs/concert-this.gif)
+
+![](Gifs/concert-this.gif)
 
 ### 2. Spotify-this-song-this
-    ![](Gifs/spotify-this-song.gif)
+
+![](Gifs/spotify-this-song.gif)
 
 ### 3. movie-this
-    ![](Gifs/movie-this.gif)
+
+![](Gifs/movie-this.gif)
 
 ### 4. do-what-it-says-this
-    ![](Gifs/do-what-it-says.gif)
+
+![](Gifs/do-what-it-says.gif)
